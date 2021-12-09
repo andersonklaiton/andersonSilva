@@ -37,7 +37,7 @@ function App() {
 
         <CardsProjects projeto={"Implementação de um codificador de mensagem"}  descrição={"Aplicação que codifica mensagem gerando uma chave única para cada mensagem"} imagem={encoder} link={"https://andersonklaiton.github.io/encoder/"} github="https://github.com/andersonklaiton/encoder"/>
 
-        <p>Projetos requisições de API</p>
+        <p>Projetos requisições de API com React</p>
 
         <CardsProjects projeto={"Personagens RICK e MORTY"}  descrição={"Aplicação com requisição de personagens na api de RICK e MORTY"} imagem={rickemorty} link={"https://react-atividade-s1-buscando-mais-personagens-andersonklaiton.vercel.app/"} github="https://github.com/Kenzie-Academy-Brasil-Developers/react-atividade-s1-buscando-mais-personagens-andersonklaiton"/>
 
