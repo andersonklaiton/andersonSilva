@@ -12,6 +12,8 @@ import encoder from "./assets/images/encoder.png"
 import rickemorty from "./assets/images/rickemorty.png"
 import pokemons from "./assets/images/pokemons.png"
 import habitude from "./assets/images/habitude.png"
+import kenzieshop from "./assets/images/kenzieshop.png"
+import tranqyl from "./assets/images/tranqyl.png"
 
 function App() {
   return (
@@ -43,11 +45,13 @@ function App() {
 
         <p>Projeto com typescript</p>
 
-        <CardsProjects projeto={"Burguer Kenzie"}  descrição={"Aplicação desenvolvidade com Typescript, simulando uma gestão de hamburgueria"} imagem={habitude} link={"https://react-entrega-s5-hamburgueria-2-0-com-typescript-jso-l0h52jroc.vercel.app/"} github="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s5-hamburgueria-2-0-com-typescript-json-server-andersonklaiton"/>
+        <CardsProjects projeto={"Burguer Kenzie"}  descrição={"Aplicação desenvolvidade com Typescript, simulando uma gestão de hamburgueria"} imagem={kenzieshop} link={"https://react-entrega-s5-hamburgueria-2-0-com-typescript-jso-l0h52jroc.vercel.app/"} github="https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s5-hamburgueria-2-0-com-typescript-json-server-andersonklaiton"/>
 
-        <p>Projeto em equipe</p>
+        <p>Projetos em equipe</p>
 
         <CardsProjects projeto={"Habitude"}  descrição={"Aplicação voltada a criação de hábitos/tarefas - neste projeto tive a oportunidade de trabalhar como Tech Leader"} imagem={habitude} link={"https://habitude.vercel.app/"} github="https://github.com/andersonklaiton/habitude"/>
+
+        <CardsProjects projeto={"Tranqyl"}  descrição={"Uma aplicação que visa o bem estar emocional e comportamental dos usuários. Valorizando o atendimento remoto de maneira objetiva e segura - neste projeto tive a oportunidade de trabalhar como Scrum Master"} imagem={tranqyl} link={"https://tranqly-capstone-osmg6nnsa-gabrielguti.vercel.app/"} github="https://github.com/gabrielguti/tranqly-capstone"/>
 
       </header>
     </div>
