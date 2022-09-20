@@ -11,10 +11,13 @@ import pokemons from "../../assets/images/pokemons.png"
 import habitude from "../../assets/images/habitude.png"
 import kenzieshop from "../../assets/images/kenzieshop.png"
 import tranqyl from "../../assets/images/tranqyl.png"
+import rent_a_car from "../../assets/images/rent_a_car.png"
+import agencia from "../../assets/images/agencia.png"
 
 const Projects = ()=>{
     return(
         <>
+        <p>Projetos Front End</p>
         <p>Primeiros Projetos - Reaprendendo HTML/CSS</p>
         <CardsProjects projeto={"Estilizando Curriculo"}  descrição={"Utilizando regras em estilização css foi requisitado para que o projeto pronto ficasse o mais próximo possível do mockup passado"} imagem={curriculo} link={"https://kenzie-academy-brasil-developers.github.io/estilizar-curriculo-sprint-2-AndersonKSilva/"} github="https://github.com/Kenzie-Academy-Brasil-Developers/estilizar-curriculo-sprint-2-AndersonKSilva"/>
 
@@ -48,6 +51,10 @@ const Projects = ()=>{
 
         <CardsProjects projeto={"Tranqyl"}  descrição={"Uma aplicação que visa o bem estar emocional e comportamental dos usuários. Valorizando o atendimento remoto de maneira objetiva e segura - neste projeto tive a oportunidade de trabalhar como Scrum Master"} imagem={tranqyl} link={"https://tranqly-capstone-osmg6nnsa-gabrielguti.vercel.app/"} github="https://github.com/gabrielguti/tranqly-capstone"/>
 
+        <CardsProjects projeto={"ECommerce"} descrição={"Projeto de um ecomerce de um teste de front end para uma empresa"} imagem={agencia} github={"https://github.com/andersonklaiton/teste_agencia_n1"}/>
+        <p>Projetos Back End</p>
+
+        <CardsProjects projeto={"Rent_a_car"} descrição={"API desenvolvida para gerenciamento de uma empresa de aluguel de veículos"} imagem={rent_a_car} github={"https://github.com/andersonklaiton/rent-a-car"}/>
         </>
     )
 }
