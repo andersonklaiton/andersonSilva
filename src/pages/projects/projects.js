@@ -51,7 +51,7 @@ const Projects = ()=>{
 
         <CardsProjects projeto={"Tranqyl"}  descrição={"Uma aplicação que visa o bem estar emocional e comportamental dos usuários. Valorizando o atendimento remoto de maneira objetiva e segura - neste projeto tive a oportunidade de trabalhar como Scrum Master"} imagem={tranqyl} link={"https://tranqly-capstone-osmg6nnsa-gabrielguti.vercel.app/"} github="https://github.com/gabrielguti/tranqly-capstone"/>
 
-        <CardsProjects projeto={"ECommerce"} descrição={"Projeto de um ecomerce de um teste de front end para uma empresa"} imagem={agencia} github={"https://github.com/andersonklaiton/teste_agencia_n1"}/>
+        <CardsProjects projeto={"ECommerce"} descrição={"Projeto de um ecomerce de um teste de front end para uma empresa"} imagem={agencia} link={"https://ecommerce-psi-bice.vercel.app/"} github={"https://github.com/andersonklaiton/teste_agencia_n1"}/>
         <p>Projetos Back End</p>
 
         <CardsProjects projeto={"Rent_a_car"} descrição={"API desenvolvida para gerenciamento de uma empresa de aluguel de veículos"} imagem={rent_a_car} github={"https://github.com/andersonklaiton/rent-a-car"}/>
